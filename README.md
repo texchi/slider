@@ -117,5 +117,12 @@ Now your slideshow is fade in and fade out.
 
 ---
 
+### TODO
+- Unit test
+- Add demo page
+- Add canvas blur effect
+
+---
+
 ### License
 slider.js is available under the terms of the [MIT License](https://github.com/fengzifz/slider/blob/master/LICENSE).
