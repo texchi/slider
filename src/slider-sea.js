@@ -22,15 +22,15 @@ define(function(require, exports, modules) {
             imgWrap     : null, // 包含图片的 wrapper
             arrowWrap   : null, // 包含左右箭头的 wrapper
             navWrap     : null, // 包含导航按钮的 wrapper
-            descWrap    : null, // 包含文字描述的 wrapper，但文字内容和图片是分离的时候，可以使用
+            descWrap    : null, // TODO: 包含文字描述的 wrapper，但文字内容和图片是分离的时候，可以使用
             autoPlay    : false, // 是否自动播放
-            width       : 900, // 默认宽度
-            height      : 600, // 默认高度
+            width       : 900, // TODO: 默认宽度
+            height      : 600, // TODO: 默认高度
             speed       : 1000, // 播放速度
             delay       : 3000, // 切换速度
             currentCss  : 'current', // 当前图片的 css class 名
             imgEffect   : 'slide', // 默认的图片切换效果
-            descEffect  : 'slide', // 默认的文字内容切换效果
+            descEffect  : 'slide', // TODO: 默认的文字内容切换效果
             easing      : 'easeInOutQuad' // 默认的切换物理效果
         }, options);
 
