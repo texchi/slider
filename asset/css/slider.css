@@ -1,0 +1,24 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ol,
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+/* ===== Slideshow 01 ===== */
+.slide-01 {
+    position: relative;
+}
+
+.slide-01 li {
+    position: absolute;
+}
