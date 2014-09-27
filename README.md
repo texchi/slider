@@ -71,5 +71,51 @@ new Slider(optSlider1);
 
 ---
 
+### Custom Effect
+Everyone can easily add your own effect to slider.js, only three step:
+
+##### Step 1
+Find the `effect()` method. Suppose you will add an effect "fade"
+```Jacascript
+effect: function(e, o) {
+    var me = this;
+
+    switch (e) {
+        case 'slide':
+            me.slide(o, me.imgWidth);
+            break;
+        case 'fade': // Custom effect
+            me.fade(o);
+            break;
+        default:
+            break
+    }
+},
+```
+
+##### Step 2
+Program your `fade()` method
+```Javascript
+fade: function(o) {
+    // Some codes here...
+}
+```
+
+##### Step 3
+When you invoke the method, specify the `imgEffect` API
+```Javascript
+var optSlider1 = {
+	imgWrap: $('ul.slideshow'),
+	autoPlay: true,
+	imgEffect: 'fade' // Specify it
+};
+
+new Slider(optSlider1);
+```
+
+Now your slideshow is fade in and fade out.
+
+---
+
 ### License
 slider.js is available under the terms of the [MIT License](https://github.com/fengzifz/slider/blob/master/LICENSE).
