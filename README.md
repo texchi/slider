@@ -4,19 +4,19 @@ Slider
 ### Version
 0.0.1
 
-------
+---
 
 ### In the wild
 - [y-in](http://www.y-in.com)
 
-------
+---
 
 ### Denpendence
 - [Seajs](seajs.org/) - The project is managed by Seajs, so I still use it here.
 - [jQuery](jquery.com/) - This Slider plugin is mainly dependent on jquery.
 - [jQuery-easing](https://github.com/gdsmith/jquery.easing)
 
-------
+---
 
 ### API
 ```Javascript
@@ -35,7 +35,7 @@ descEffect  : 'slide', // TODO: 默认的文字内容切换效果
 easing      : 'easeInOutQuad' // 默认的切换物理效果
 ```
 
-------
+---
 
 ### How to use
 HTML:
@@ -69,6 +69,7 @@ var optSlider1 = {
 new Slider(optSlider1);
 ```
 
-------
+---
+
 ### License
 slider.js is available under the terms of the [MIT License](https://github.com/fengzifz/slider/blob/master/LICENSE).
